@@ -1,3 +1,3 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-dataservices))
+ifeq ($(TARGET_USES_QCOM_DATASERVICES),true)
 include $(call all-subdir-makefiles)
 endif
